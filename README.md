@@ -1,2 +1,1 @@
 # polygon-calculator
-# polygon-calculator
