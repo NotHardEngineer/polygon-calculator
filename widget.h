@@ -2,6 +2,7 @@
 #define WIDGET_H
 
 #include <QWidget>
+#include <QTableWidget>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
@@ -14,6 +15,15 @@ class Widget : public QWidget
 public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
+
+private slots:
+    void on_addVertexButton_clicked();
+
+    void on_removeVertexButton_clicked();
+
+    bool GetValueFromItem(QTableWidgetItem *item, double &value);
+
+    void on_resultButton_clicked();
 
 private:
     Ui::Widget *ui;
