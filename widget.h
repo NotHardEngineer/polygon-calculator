@@ -25,6 +25,8 @@ private slots:
 
     void on_resultButton_clicked();
 
+    void on_resetButton_clicked();
+
 private:
     Ui::Widget *ui;
 };

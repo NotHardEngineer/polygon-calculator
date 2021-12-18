@@ -217,6 +217,19 @@
     <string/>
    </property>
   </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>371</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Введите кординаты вершин по порядку</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
